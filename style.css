@@ -1,0 +1,103 @@
+/*  Content sections */
+  
+body {
+  background-color: Goldenrod;
+  margin: 100px;
+}
+
+header {
+  height: 100%;
+  background-color: YellowGreen;
+}  
+
+main {
+  min-height: 500px;
+  padding: 20px;
+}
+
+footer {
+  height: 100%;
+  background-color: YellowGreen;
+  padding: 20px;
+}  
+
+.wrapper {
+  line-height: 30px;
+}
+
+
+/* Banner */
+
+h1 {
+  padding: 70px 0 0 0px;
+  margin: 0;
+  float: center;
+
+  font-size: 52px;
+  color: #000000;
+
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%;
+  font-style: normal;
+}
+
+/* Other headings */
+
+h2 {
+  font-family: 'Serif', Georgia;
+  font-size: 36px;
+  color: #000000;
+
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%;
+  font-style: normal;
+}
+
+h3 {
+  font-family: 'Serif', Georgia;
+  font-size: 28px;
+  color: #000000;
+
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%;
+  font-style: normal;
+}
+
+h4 {
+  font-family: 'Serif', Georgia;
+  font-size: 20px;
+  color: #000000;
+
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%;
+  font-style: normal;
+}
+
+/* Main text */
+p {
+  font-family: Calibri, sans-serif;
+  font-size: 18px;
+  color: #000;
+
+  font-weight: 400; 
+  text-align: left;
+  line-height: 100%;
+  font-style: normal;
+}
+
+/* Not using: pseudo-class :hover to the <img> tag
+
+img:hover {
+ border: 8px solid green;
+}
+*/
+
+/* pseudo-class :hover anchor element */
+a:hover {
+  color: green;
+  border: 2px solid green;
+}
